@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#1E5988"
     android:orientation="vertical"
-    tools:context=".Main2Activity_ingresar">
+    tools:context=".Registo_estudiante">
 
     <TextView
         android:id="@+id/textView5"
@@ -17,7 +17,7 @@
         android:layout_marginTop="22dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="25dp"
-        android:text="Ingresar"
+        android:text="Registro Estudiante"
         android:textColor="#FFFFFF"
         android:textSize="30dp"
         android:textStyle="bold"
@@ -30,37 +30,63 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="E-mail"
+        android:hint="Nombres"
         android:textColor="#FFFFFF"
         android:textSize="20dp"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="62dp"
         tools:layout_editor_absoluteY="104dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
         />
-
-
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Contraseña"
+        android:hint="Apellidos"
         android:textColor="#FFFFFF"
         android:textSize="20dp"
-        android:inputType="textPassword"
+        android:inputType="textPersonName"
         tools:layout_editor_absoluteX="62dp"
         tools:layout_editor_absoluteY="104dp"
-        android:layout_marginLeft="20dp"/>
-
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Documento"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="104dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Grado"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="104dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        />
     <Button
-        android:id="@+id/Registrarse"
+        android:id="@+id/Enviar"
         android:layout_width="258dp"
         android:layout_height="50dp"
         android:layout_marginLeft="80dp"
-        android:text="Ingresar"
         android:layout_marginTop="50dp"
+        android:text="Enviar"
         android:fontFamily="@font/coda"
         android:textSize="20sp"
         android:background="@drawable/mi_boton_redondeado"/>
+
+
 
 
 </LinearLayout>

@@ -1,14 +1,14 @@
-package com.example.myapplication;
+package com.example.prueba;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity_ingresar extends AppCompatActivity {
+public class Desarrollo_examen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_ingresar);
+        setContentView(R.layout.activity_desarrollo_examen);
     }
 }

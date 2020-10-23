@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_books"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Desarrollo_examen"></activity>
+        <activity android:name=".Solucion_examen" />
+        <activity android:name=".Materias" />
+        <activity android:name=".Grados" />
+        <activity android:name=".Registo_estudiante" />
+        <activity android:name=".Registro_docentes" />
         <activity android:name=".Main3Activity_Registrarse" />
         <activity android:name=".Main2Activity_loging" />
         <activity
@@ -25,7 +31,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Main2Activity_ingresar"></activity>
+        <activity android:name=".Main2Activity_ingresar" />
     </application>
 
 </manifest>
